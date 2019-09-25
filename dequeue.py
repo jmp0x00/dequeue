@@ -3,7 +3,6 @@ class Dequeue(object):
     def __init__(self):
         self.stack = []
         self.reversed_stack = []
-        pass
 
     @staticmethod
     def _move(a, b):
